@@ -1,6 +1,6 @@
 = facade_model
 
-Description goes here.
+A gem for creating a fake activerecord model that has a has_many relationship and that accepts nested attributes to the model of your choice. This is helpful for when you want create nested forms to edit/create multiple objects at the same time, without having to create the corresponding relationship in the database. 
 
 == Contributing to facade_model
  

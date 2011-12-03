@@ -1,5 +1,5 @@
 # encoding: utf-8
-
+$LOAD_PATH.unshift 'lib'
 require 'rubygems'
 require 'bundler'
 begin
@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "facade_model"
   gem.homepage = "http://github.com/frausto/facade_model"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{TODO: a facade active record class with a has_many association to a model of you choice}
+  gem.description = %Q{TODO: a facade active record class (not saved in a database) with a has_many association to a model of you choice allowing for nested forms for the associated model}
   gem.email = "nrfrausto@gmail.com"
   gem.authors = ["nolan frausto"]
   # dependencies defined in Gemfile
